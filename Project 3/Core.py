@@ -1,0 +1,39 @@
+from enum import Enum
+
+Core = Enum('Core',
+	'PROGRAM,\
+	BEGIN,\
+	END,\
+	NEW,\
+    INT,\
+	DEFINE,\
+	REF,\
+	INSTANCE,\
+	IF,\
+	THEN,\
+	ELSE,\
+	WHILE,\
+    OR,\
+    AND,\
+    INPUT,\
+    OUTPUT,\
+    SHARE,\
+    ID,\
+    CONST,\
+	SEMICOLON,\
+	LPAREN,\
+	RPAREN,\
+	COMMA,\
+	ASSIGN,\
+	NEGATION,\
+	EQUAL,\
+	LESS\
+	LESSEQUAL,\
+	ADD,\
+	SUB,\
+	MULT,\
+    LBRACE,\
+    RBRACE,\
+	EOS,\
+	ERROR'
+)
